@@ -52,12 +52,11 @@
 					return $data;
 				}
 
-				$email = "or.ron7@gmail.com";
 				$subject = "מעוניין בטיפול ברפואה סינית";
 				$body = $comment;
 				$headers = $name;
 
-				mail($to_email, $subject, $body, $headers);			
+				mail($email, $subject, $body, $headers);			
 							
 		?>
 
