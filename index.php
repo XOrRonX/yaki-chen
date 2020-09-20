@@ -77,7 +77,7 @@
 							</article>
 
 						<!-- Contact -->
-							<article id="contact" style="text-align: right; direction: rtl;>
+							<article id="contact" style="text-align: right; direction: rtl;">
 								<h2 class="major" >יצירת קשר וקביעת פגישה</h2>
 								<ul class="icons" style="text-align: center;">
 								<li><a class="icon brands fa-whatsapp"  href="https://wa.me/+972545866483?text=Hi%20Yaki%20I%20would%20like%20to%20arrange%20an%20appointment%20to..."></a></li>
