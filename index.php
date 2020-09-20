@@ -41,7 +41,7 @@
 					<div id="main">
 
 						<!-- Intro -->
-							<article id="intro" style="text-align: right;">
+							<article id="intro" style="text-align: right; direction: rtl;">
 								<h2 class="major"  style="text-align: right;">אודות</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 								<p>
@@ -52,9 +52,9 @@
 							</article>
 
 						<!-- Work -->
-							<article id="work" style="text-align: right;">
+							<article id="work" style="text-align: right; direction: rtl;">
 								<h2 class="major">שיטות טיפול</h2>
-								<span class="image main" style="direction: rtl;" ><img src="images/pic01.jpg" alt="" /></span>
+								<span class="image main" ><img src="images/pic01.jpg" alt="" /></span>
 								<p>שיטות הטיפול המרכזיות של הרפואה הסינית הן דיקור סיני, תזונה, צמחי מרפא וטכניקות מגע. בעזרת השיטות האלו מצליחה הרפואה הסינית לרפא וגם למנוע בעיות רפואיות רבות בכל גיל, בקרב ילדים, מבוגרים וגם קשישים.
 									הרפואה הסינית מתייחסת אל מחלה כחוסר איזון בגוף ומטרת הטיפולים הם להחזיר לגוף את האיזון שאבד.<br> לפי הרפואה הסינית בגוף יש כשלוש מאות וחמישים נקודות המשפיעות על בריאות הגוף, לכל נקודה יש תפקיד שונה, וטיפולי הדיקור, שבהן מחדיר המטפל מחט דקה אל הנקודות המתאימות, מעוררים את הגוף לפעול, מחזקים ומאזנים אותו.									
 									צמחי המרפא פועלים על המערכות הפנימיות של הגוף.									
@@ -77,8 +77,8 @@
 							</article>
 
 						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major" style="direction: rtl;">יצירת קשר וקביעת פגישה</h2>
+							<article id="contact" style="text-align: right; direction: rtl;>
+								<h2 class="major" >יצירת קשר וקביעת פגישה</h2>
 								<ul class="icons" style="text-align: center;">
 								<li><a class="icon brands fa-whatsapp"  href="https://wa.me/+972545866483?text=Hi%20Yaki%20I%20would%20like%20to%20arrange%20an%20appointment%20to..."></a></li>
 								<li><a class="icon solid fa-envelope" href="mailto:omrychen15793@gmail.com?subject=Hi%20Yaki%20&body=Hi%20Yaki%20I%20would%20like%20to%20arrange%20an%20appointment%20to..." rel="EMAIL"></a></li>							
