@@ -6,6 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
+		
 	</head>
 	<body class="is-preload">
 
@@ -76,7 +78,7 @@
 
 						<!-- Contact -->
 							<article id="contact">
-								<h2 class="major">יצירת קשר וקביעת פגישה ייעוץ</h2>
+								<h2 class="major">יצירת קשר וקביעת פגישה</h2>
 								<ul class="icons" style="text-align: center;">
 								<li><a class="icon brands fa-whatsapp"  href="https://wa.me/+972545866483?text=Hi%20Yaki%20I%20would%20like%20to%20arrange%20an%20appointment%20to..."></a></li>
 								<li><a class="icon solid fa-envelope" href="mailto:omrychen15793@gmail.com?subject=Hi%20Yaki%20&body=Hi%20Yaki%20I%20would%20like%20to%20arrange%20an%20appointment%20to..." rel="EMAIL"></a></li>							
