@@ -78,7 +78,7 @@
 							<article id="contact">
 								<h2 class="major">יצירת קשר וקביעת פגישה ייעוץ</h2>
 								<ul class="icons">
-								<li><a class="icon brands fa-whatsapp"  href="https://wa.me/+972545866483?text=Hi%20Yaki%20I%20would%20like%20to%20arrange%20an%20appointment%20to...">/a></li>
+								<!-- <li><a class="icon brands fa-whatsapp"  href="https://wa.me/+972545866483?text=Hi%20Yaki%20I%20would%20like%20to%20arrange%20an%20appointment%20to...">/a></li> -->
 								<li><a class="icon solid fa-envelope" href="mailto:omrychen15793@gmail.com?subject=Hi%20Yaki%20&body=Hi%20Yaki%20I%20would%20like%20to%20arrange%20an%20appointment%20to..." rel="EMAIL"></a></li>							
 								<li><a class="icon brands fa-facebook-f" href="https://www.facebook.com/%D7%A8%D7%A4%D7%95%D7%90%D7%94-%D7%A1%D7%99%D7%A0%D7%99%D7%AA-%D7%95%D7%A9%D7%99%D7%90%D7%A6%D7%95-%D7%99%D7%A7%D7%99-%D7%97%D7%9F-595833220478762"
 									 target="_blank" ><span class="label"></span></a></li>
