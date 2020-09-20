@@ -9,57 +9,6 @@
 	</head>
 	<body class="is-preload">
 
-		<?php
-				// i just added this
-				// define variables and set to empty values
-				$nameErr = $emailErr = $genderErr = $websiteErr = "";
-				$name = $email = $gender = $comment = $website = "";
-
-				if ($_SERVER["REQUEST_METHOD"] == "POST") {
-					if (empty($_POST["name"])) {
-						$nameErr = "Name is required";
-					} else {
-						$name = test_input($_POST["name"]);
-						// check if name only contains letters and whitespace
-						if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
-						$nameErr = "Only letters and white space allowed";
-						}
-					}
-					
-					if (empty($_POST["email"])) {
-						$emailErr = "Email is required";
-					} else {
-						$email = test_input($_POST["email"]);
-						// check if e-mail address is well-formed
-						if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-						$emailErr = "Invalid email format";
-						}
-					}
-
-					if (empty($_POST["message"])) {
-						$comment = "";
-					} else {
-						$comment = test_input($_POST["message"]);
-					}
-
-				
-				}
-
-				function test_input($data) {
-					$data = trim($data);
-					$data = stripslashes($data);
-					$data = htmlspecialchars($data);
-					return $data;
-				}
-
-				$subject = "מעוניין בטיפול ברפואה סינית";
-				$body = $comment;
-				$headers = $name;
-
-				mail($email, $subject, $body, $headers);			
-							
-		?>
-
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -127,32 +76,11 @@
 
 						<!-- Contact -->
 							<article id="contact">
-								<h2 class="major">יצירת קשר</h2>
-								<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">שם מלא</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">אימייל</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">ההודעה שלך</label>
-											<textarea name="message" id="message" rows="4" ></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="שלח הודעה" class="primary" /></li>
-										<li><input type="reset" value="נקה" /></li>
-									</ul>
-								</form>
+								<h2 class="major">יצירת קשר וקביעת פגישה ייעוץ</h2>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li class="icon brands fa-whatsapp" > <a href="https://wa.me/+972545866483?text=Hi%20Yaki%20I%20would%20like%20to%20arrange%20an%20appointment%20to...">(054) 586-6483</a></li>
+									<li class="icon solid fa-envelope" ><a href="mailto:omrychen15793@gmail.com?subject=Hi%20Yaki%20&body=Hi%20Yaki%20I%20would%20like%20to%20arrange%20an%20appointment%20to..." rel="EMAIL">omrychen15793@gmail.com</a></li>							
+									<li><a href="https://www.facebook.com/%D7%A8%D7%A4%D7%95%D7%90%D7%94-%D7%A1%D7%99%D7%A0%D7%99%D7%AA-%D7%95%D7%A9%D7%99%D7%90%D7%A6%D7%95-%D7%99%D7%A7%D7%99-%D7%97%D7%9F-595833220478762" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 								</ul>
 							</article>
 
